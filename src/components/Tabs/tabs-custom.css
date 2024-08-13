@@ -1,0 +1,12 @@
+.ant-tabs-tab-btn {
+    color: #15313C !important;
+    font-weight: 400 !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #15313C  !important;
+    font-weight: 600 !important;
+    
+}
+.ant-tabs-ink-bar {
+    background-color: #15313C !important;
+}

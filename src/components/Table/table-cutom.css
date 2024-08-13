@@ -1,0 +1,32 @@
+.ant-table-wrapper .ant-table-thead > tr > th {
+  text-align: center !important;
+}
+
+.ant-table-row td {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+.custom-table th {
+  border-inline-end: 1px solid #abbed1 !important;
+  border-top: 1px solid #abbed1 !important;
+}
+.custom-table td {
+  border-inline-end: 1px solid #abbed1 !important;
+}
+.custom-table tr th:first-child {
+  border-left: 1px solid #abbed1 !important;
+}
+.custom-table tr td:first-child {
+  border-left: 1px solid #abbed1 !important;
+}
+
+.custom-table .ant-table-cell.fixBorderTopLeft {
+  border-top: none !important;
+  border-left: none !important;
+}
+
+.custom-table .ant-table-cell.fixBorderTop {
+  border-top: none !important;
+}

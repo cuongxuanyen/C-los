@@ -1,0 +1,41 @@
+.modalCss {
+  top: 0;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.modalCss .ant-modal-footer {
+  margin: 0;
+}
+
+.cssImportFile {
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+}
+
+.cssImportFile .ant-progress-text {
+  display: none !important;
+}
+.cssImportFile > .ant-progress-outer {
+  padding: 0 !important;
+}
+
+.cssImportFile .ant-progress-bg {
+  background-color: #47b14b; /* Màu nền cho progress bar */
+}
+
+.cssImportFile .ant-progress-inner {
+  background-color: white !important; /* Thiết lập màu nền của thanh tiến trình */
+}
+
+.cssImportFile .ant-upload .ant-upload-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}

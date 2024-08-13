@@ -1,0 +1,38 @@
+.modal {
+  top: 4rem;
+  .ant-modal-content {
+    padding: 0;
+  }
+  .ProfileContent {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .fullWidth {
+      width: 100%;
+      padding: 8px;
+      height: 50px;
+    }
+    .fixWidth {
+      width: 47.9%;
+      padding: 8px;
+      height: 50px;
+    }
+    .fix-height-area {
+      width: 100%;
+      padding: 8px;
+      height: auto;
+    }
+  }
+}
+.field-otp {
+  width: -webkit-fill-available;
+}
+.ant-modal-root {
+  .ant-modal-mask {
+    z-index: 100;
+  }
+  .ant-modal-wrap {
+    z-index: 101;
+  }
+}

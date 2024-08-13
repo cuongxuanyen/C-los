@@ -1,0 +1,5 @@
+input[name="invoiceReferenceNumber"] {
+    max-width: 363 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
